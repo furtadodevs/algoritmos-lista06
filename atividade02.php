@@ -32,5 +32,5 @@ do {
 $mediaFinal = $totalPontos / $partidas;
 
 echo ("<strong>Quantidade de partidas: " . $partidas . "</strong>" . "<br>");
-echo ("<strong>Pontuação final: " . $pontuacao . "</strong>" . "<br>");
+echo ("<strong>Pontuação final: " . $totalPontos . "</strong>" . "<br>");
 echo ("<strong>Média final: " . number_format($mediaFinal, 2) . "</strong>" . "<br>");
