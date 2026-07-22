@@ -31,6 +31,7 @@ do {
     //flag de saída : 0(F) ou 1(V)
     $continuar = rand(0, 1);
 
+    echo ("Deseja continuar: $continuar <br>");
     echo ("<hr>");
 } while ($continuar == 1);
 
