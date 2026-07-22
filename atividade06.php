@@ -24,7 +24,7 @@ while ($loginRealizado == 00 && $tentativas <= 5) {
     $tentativas++;
 }
 
-if ($loginRealizado == 0) {
+if ($tentativas == 0) {
     echo ("<br> Número máximo de tentativas atigido. <br>");
 }
 
