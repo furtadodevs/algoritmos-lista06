@@ -11,7 +11,7 @@ $estoque = 20;
 $qtdVendas = 0;
 $vendidos = 0;
 
-while ($estoque > 0) {
+while ($estoque > 0 && $estoque <= 20) {
 
     $vendas = rand(1, 4);
 
